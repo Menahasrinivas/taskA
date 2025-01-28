@@ -30,7 +30,8 @@ const App = () => {
 
   return (
     <div className="app">
-      <h1>Shopping Cart</h1>
+      <h1 style={{ textAlign: "center" }}>Welcome to Aristo Shopping</h1>
+      
       <ProductList addToCart={addToCart} />
       <Cart
         cart={cart}
